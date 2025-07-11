@@ -2,3 +2,5 @@ streamlit
 numpy
 matplotlib
 koreanize-matplotlib
+plotly
+plotly.graph_objects
