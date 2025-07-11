@@ -105,7 +105,7 @@ def update_simulation(angle):
     # 행성 위치 계산 (원형 궤도)
     x_planet = orbit_radius * np.cos(np.radians(angle))
     y_planet = orbit_radius * np.sin(np.radians(angle))
-    planet.set_data(x_planet, y_planet)
+    planet.set_data([x_planet], [y_planet])
 
     # 중심 항성과의 거리 (행성과 항성 사이의 유클리드 거리)
     distance_from_star = np.sqrt(x_planet**2 + y_planet**2)
